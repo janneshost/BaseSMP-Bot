@@ -1,0 +1,44 @@
+# Bot-Token aus dem Discord Developer Portal (Bot -> Reset Token)
+DISCORD_TOKEN=
+
+# Application ID (General Information -> Application ID)
+CLIENT_ID=
+
+# ID deines Servers (Rechtsklick auf Server -> ID kopieren, Entwicklermodus muss an sein)
+GUILD_ID=
+
+# ID der Kategorie, in der Ticket-Kanäle erstellt werden sollen
+TICKET_CATEGORY_ID=
+
+# ID der Rolle, die alle Tickets sehen darf (z.B. Team/Mod-Rolle)
+STAFF_ROLE_ID=
+
+# ---- Twitch Live-Benachrichtigung ----
+# Client-ID und Client-Secret von https://dev.twitch.tv/console/apps (neue App anlegen)
+TWITCH_CLIENT_ID=
+TWITCH_CLIENT_SECRET=
+
+# Dein Twitch-Benutzername (der aus der URL twitch.tv/DEINNAME)
+TWITCH_USERNAME=
+
+# ID des Discord-Kanals, in dem die Live-Benachrichtigung gepostet werden soll
+TWITCH_ANNOUNCE_CHANNEL_ID=
+
+# (Optional) ID einer Rolle, die bei Live-Start gepingt werden soll
+TWITCH_PING_ROLE_ID=
+
+# ---- Willkommensnachricht ----
+# ID des Kanals, in dem neue Mitglieder begrüßt werden sollen
+WELCOME_CHANNEL_ID=
+
+# (Optional) eigener Begrüßungstext. Platzhalter: {user} (pingt die Person), {username}, {server}
+WELCOME_MESSAGE=Willkommen auf dem Server, {user}! Schön, dass du da bist.
+
+# ---- Clan-Tickets (/clan-ticket) ----
+# Optional: eigene Kategorie/Rolle nur für Clan-Tickets. Wenn leer, werden TICKET_CATEGORY_ID / STAFF_ROLE_ID genutzt.
+CLAN_TICKET_CATEGORY_ID=
+CLAN_STAFF_ROLE_ID=
+
+# ---- Speicher (wichtig für Giveaways, damit sie Neustarts überleben) ----
+# Pfad zu einem Railway-Volume, z.B. /data (siehe Anleitung). Leer lassen, wenn kein Volume genutzt wird.
+DATA_DIR=
